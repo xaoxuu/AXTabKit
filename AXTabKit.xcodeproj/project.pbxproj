@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4166B520BCF058005CFD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4166B420BCF058005CFD10 /* AppDelegate.m */; };
+		CD4166B820BCF058005CFD10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4166B720BCF058005CFD10 /* ViewController.m */; };
+		CD4166BB20BCF058005CFD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4166B920BCF058005CFD10 /* Main.storyboard */; };
+		CD4166BD20BCF05A005CFD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4166BC20BCF05A005CFD10 /* Assets.xcassets */; };
+		CD4166C020BCF05A005CFD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4166BE20BCF05A005CFD10 /* LaunchScreen.storyboard */; };
+		CD4166C320BCF05A005CFD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4166C220BCF05A005CFD10 /* main.m */; };
+		CD4166D320BCF08D005CFD10 /* AXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4166D220BCF08C005CFD10 /* AXTabBarController.m */; };
+		CD4166D520BCF0B7005CFD10 /* AXTabBarController.json in Resources */ = {isa = PBXBuildFile; fileRef = CD4166D420BCF0B7005CFD10 /* AXTabBarController.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD4166B020BCF058005CFD10 /* AXTabKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXTabKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4166B320BCF058005CFD10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD4166B420BCF058005CFD10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD4166B620BCF058005CFD10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD4166B720BCF058005CFD10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD4166BA20BCF058005CFD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4166BC20BCF05A005CFD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4166BF20BCF05A005CFD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4166C120BCF05A005CFD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4166C220BCF05A005CFD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD4166D020BCF08C005CFD10 /* AXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTabBarController.h; sourceTree = "<group>"; };
+		CD4166D120BCF08C005CFD10 /* AXTabKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTabKit.h; sourceTree = "<group>"; };
+		CD4166D220BCF08C005CFD10 /* AXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTabBarController.m; sourceTree = "<group>"; };
+		CD4166D420BCF0B7005CFD10 /* AXTabBarController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AXTabBarController.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4166AD20BCF058005CFD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4166A720BCF058005CFD10 = {
+			isa = PBXGroup;
+			children = (
+				CD4166B220BCF058005CFD10 /* AXTabKit */,
+				CD4166B120BCF058005CFD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4166B120BCF058005CFD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4166B020BCF058005CFD10 /* AXTabKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4166B220BCF058005CFD10 /* AXTabKit */ = {
+			isa = PBXGroup;
+			children = (
+				CD4166B320BCF058005CFD10 /* AppDelegate.h */,
+				CD4166B420BCF058005CFD10 /* AppDelegate.m */,
+				CD4166B620BCF058005CFD10 /* ViewController.h */,
+				CD4166B720BCF058005CFD10 /* ViewController.m */,
+				CD4166CF20BCF08C005CFD10 /* AXTabKit */,
+				CD4166B920BCF058005CFD10 /* Main.storyboard */,
+				CD4166BC20BCF05A005CFD10 /* Assets.xcassets */,
+				CD4166BE20BCF05A005CFD10 /* LaunchScreen.storyboard */,
+				CD4166C120BCF05A005CFD10 /* Info.plist */,
+				CD4166C220BCF05A005CFD10 /* main.m */,
+			);
+			path = AXTabKit;
+			sourceTree = "<group>";
+		};
+		CD4166CF20BCF08C005CFD10 /* AXTabKit */ = {
+			isa = PBXGroup;
+			children = (
+				CD4166D420BCF0B7005CFD10 /* AXTabBarController.json */,
+				CD4166D020BCF08C005CFD10 /* AXTabBarController.h */,
+				CD4166D120BCF08C005CFD10 /* AXTabKit.h */,
+				CD4166D220BCF08C005CFD10 /* AXTabBarController.m */,
+			);
+			path = AXTabKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4166AF20BCF058005CFD10 /* AXTabKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4166C620BCF05A005CFD10 /* Build configuration list for PBXNativeTarget "AXTabKit" */;
+			buildPhases = (
+				CD4166AC20BCF058005CFD10 /* Sources */,
+				CD4166AD20BCF058005CFD10 /* Frameworks */,
+				CD4166AE20BCF058005CFD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXTabKit;
+			productName = AXTabKit;
+			productReference = CD4166B020BCF058005CFD10 /* AXTabKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4166A820BCF058005CFD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Titan Studio";
+				TargetAttributes = {
+					CD4166AF20BCF058005CFD10 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = CD4166AB20BCF058005CFD10 /* Build configuration list for PBXProject "AXTabKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4166A720BCF058005CFD10;
+			productRefGroup = CD4166B120BCF058005CFD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4166AF20BCF058005CFD10 /* AXTabKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4166AE20BCF058005CFD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4166D520BCF0B7005CFD10 /* AXTabBarController.json in Resources */,
+				CD4166C020BCF05A005CFD10 /* LaunchScreen.storyboard in Resources */,
+				CD4166BD20BCF05A005CFD10 /* Assets.xcassets in Resources */,
+				CD4166BB20BCF058005CFD10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4166AC20BCF058005CFD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4166D320BCF08D005CFD10 /* AXTabBarController.m in Sources */,
+				CD4166B820BCF058005CFD10 /* ViewController.m in Sources */,
+				CD4166C320BCF05A005CFD10 /* main.m in Sources */,
+				CD4166B520BCF058005CFD10 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD4166B920BCF058005CFD10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4166BA20BCF058005CFD10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4166BE20BCF05A005CFD10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4166BF20BCF05A005CFD10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4166C420BCF05A005CFD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD4166C520BCF05A005CFD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4166C720BCF05A005CFD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AXTabKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xaoxuu.AXTabKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4166C820BCF05A005CFD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AXTabKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xaoxuu.AXTabKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4166AB20BCF058005CFD10 /* Build configuration list for PBXProject "AXTabKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4166C420BCF05A005CFD10 /* Debug */,
+				CD4166C520BCF05A005CFD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4166C620BCF05A005CFD10 /* Build configuration list for PBXNativeTarget "AXTabKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4166C720BCF05A005CFD10 /* Debug */,
+				CD4166C820BCF05A005CFD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4166A820BCF058005CFD10 /* Project object */;
+}
