@@ -7,10 +7,10 @@
 //
 
 #import "AXTabBarController.h"
-#import "UIViewController+AXExtension.h"
-#import "UIImage+AXExtension.h"
-#import "_AXKitBundle.h"
 
+static inline UIViewController *sUIViewControllerNamed(NSString *name){
+    return [[[NSClassFromString(name) class] alloc] init];
+}
 
 @interface AXTabBarController ()
 
@@ -27,7 +27,7 @@
     
     
     [self.controllers enumerateObjectsUsingBlock:^(NSDictionary * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        UIViewController *vc = UIViewControllerNamed(obj[self.configurationKeyForViewControllerName]);
+        UIViewController *vc = sUIViewControllerNamed(obj[self.configurationKeyForViewControllerName]);
         if (vc) {
             __kindof UINavigationController *nav = [[NSClassFromString(self.classNameForBaseNavigationController) alloc] initWithRootViewController:vc];
             [self addChildViewController:nav];
@@ -72,10 +72,10 @@
             vc.title = NSStringFromClass(vc.class);
         }
         if (image.length) {
-            vc.tabBarItem.image = UIImageNamed(image);
+            vc.tabBarItem.image = [UIImage imageNamed:image];
         }
         if (selectedImage) {
-            vc.tabBarItem.selectedImage = UIImageNamed(selectedImage);
+            vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
         }
     }
 }
@@ -90,9 +90,6 @@
 - (NSString *)configurationFilePath{
     NSString *path;
     path = [[NSBundle mainBundle] pathForResource:NSStringFromClass(self.class) ofType:@"json"];
-    if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
-        path = [[NSBundle axkitBundle] pathForResource:@"AXTabBarController" ofType:@"json"];
-    }
     return path;
 }
 
