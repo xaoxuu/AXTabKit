@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 # pod trunk push AXTabKit.podspec
 
   s.name         = "AXTabKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "快速创建TabBar框架的app。"
   s.homepage     = "http://xaoxuu.com"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
